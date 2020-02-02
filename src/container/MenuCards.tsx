@@ -12,7 +12,12 @@ const MenuList = [
   {
     image: require('../../assets/recipe.png'),
     label: 'Find recipe',
-    screen: 'Recipe'
+    screen: 'FindRecipe'
+  },
+  {
+    image: require('../../assets/recipe.png'),
+    label: 'Videos',
+    screen: 'Videos'
   }
 ];
 const MenuCards = props => {

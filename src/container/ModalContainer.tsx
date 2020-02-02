@@ -17,7 +17,6 @@ const ModalContainer = (props: IModal) => {
             style={styles.buttonStyle}
             onPress={() => {
               HomeStore.isModalVisible = false;
-              console.log(HomeStore.isModalVisible);
             }}
           >
             <Text style={styles.btnTextStyle}>CLOSE</Text>

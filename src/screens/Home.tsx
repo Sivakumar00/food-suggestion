@@ -26,7 +26,6 @@ const Home = observer(props => {
       <View style={styles.container}>
         <AskQuestion />
         <MenuCards {...props} />
-
         {HomeStore.isModalVisible && (
           <ModalContainer>
             <View style={styles.modalContainer}>

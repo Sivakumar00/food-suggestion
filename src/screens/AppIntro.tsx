@@ -24,7 +24,6 @@ const slides = [
 const AppIntro = props => {
   const _onDone = () => {
     AsyncStorage.setItem(AsyncCodes.IS_FIRST, 'true').then(() => {
-      console.log('jajdlfja');
       props.navigation.navigate('Home');
     });
   };

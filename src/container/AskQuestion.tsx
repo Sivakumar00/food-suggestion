@@ -12,7 +12,6 @@ const AskQuestion = observer(props => {
   const handleOnClickSendBtn = () => {
     setisLoading(true);
     askQuestions({ q: question }).then((response: any) => {
-      console.log(JSON.stringify(response));
       HomeStore.modalData = {
         image: response.image,
         data: response.answer

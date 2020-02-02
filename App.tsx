@@ -28,7 +28,6 @@ const App = () => {
       .then(response => {
         Keys.API_KEY = response.key;
         setisLoading(false);
-        console.log(Keys.API_KEY);
       })
       .catch(error => {
         setisLoading(false);
